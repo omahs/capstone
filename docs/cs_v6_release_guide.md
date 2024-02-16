@@ -89,7 +89,7 @@ Because Capstone uses a huge amount of LLVM code, we renamed everything to `AArc
 Because this would completely break maintaining Capstone `v6` and `pre-v6` in a project, we added macros for meta-programming.
 
 If you need to support the previous version of Capstone as well, you can use those macros (see below helper scripts).
-Also, your can exclude/include code by checking `CS_NEXT_VERSION < 6`.
+Also, you can exclude/include code by checking `CS_NEXT_VERSION < 6`.
 
 The following `sed` commands in a sh script should ease the renaming from `ARM64` to `AArch64` a lot.
 
